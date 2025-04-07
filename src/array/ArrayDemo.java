@@ -35,8 +35,8 @@ public class ArrayDemo {
 		d[1][0] = 4;
 		d[1][1] = 5;
 		d[1][2] = 6;
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 3; j++) {
+		for (int i = 0; i < 2; i++) {//row
+			for (int j = 0; j < 3; j++) {// col
 				System.out.println(d[i][j]);
 			}
 		}
