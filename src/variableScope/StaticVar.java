@@ -7,7 +7,7 @@ public class StaticVar {
 	String addr;
 	static String city; // Memory saving & sharing - class Variables
 	static int i; // every time object created this variable is shared
-	int j = 0;// Instance var starts fresh when a obj is created
+	int j = 0;// Instance var resets when a obj is created
 	static {// This block is used to initialize all static variables
 		city = "Bng";
 		i = 0;
